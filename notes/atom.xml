@@ -14,13 +14,13 @@ layout: feed
 		<email>wangchunyang@gmail.com</email>
 	</author>
 
-	{% for note in site.notes %}
+	{% for post in site.posts %}
 		<entry>
-			<title>{{ note.title }}</title>
+			<title>{{ post.title }}</title>
 			<link href="https://wangchunyang.github.io{{ post.url }}"/>
-			<updated>{{ note.date | date_to_xmlschema }}</updated>
-			<id>https://wangchunyang.github.io{{note.id}}</id>
-			<content type="html">{{note.content|xml_escape}}</content>
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
+			<id>https://wangchunyang.github.io{{post.id}}</id>
+			<content type="html">{{post.content|xml_escape}}</content>
 		</entry>
 	{% endfor %}
 
