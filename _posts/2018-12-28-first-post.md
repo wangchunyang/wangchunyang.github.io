@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chunyang, First Post"
+title: "First Post"
 date: 2018-12-28
 ---
 
