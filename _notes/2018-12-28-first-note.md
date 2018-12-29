@@ -1,6 +1,6 @@
 ---
-layout: post
-title: "First Post"
+layout: note_template
+title: "First Note"
 date: 2018-12-28
 ---
 
