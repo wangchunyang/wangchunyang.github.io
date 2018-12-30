@@ -1,9 +1,9 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 20px auto;
+    width: 75%;
+    font-family:'Georgia', 'Arial', 'Sans-Serif';
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -20,11 +20,9 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 2em;
 }
 p {
-    font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
@@ -33,11 +31,21 @@ footer {
     font-size: .8em;
 }
 
-ul.notes { 
+ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 
-ul.notes li {
+ul.posts li {
     list-style: none;
+}
+
+.page-meta {
+    font-size: .8em;
+}
+.page-title {
+    margin-bottom: 0px;
+}
+.post {
+    font-size: 1em;
 }

@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<h2 class="page-title">{{ page.title }}</h2>
+<div class="page-meta">
+    <span>By Chunyang Wang on {{ page.date | date_to_string }}</span> | <a href="{{page.url}}">Permalink</a>
+    | <a href="{{page.comments}}">Comments(8)</a>
+</div>
+<div class="post">
+    {{ content }}
+</div>
